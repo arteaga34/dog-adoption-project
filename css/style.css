@@ -1,33 +1,33 @@
 body {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 
 .buy-items {
-  width: auto;
-  height: 260px;
+	width: auto;
+	height: 260px;
 }
 
 .card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+	margin: 0 auto; /* Added */
+	float: none; /* Added */
+	margin-bottom: 10px; /* Added */
+	box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .paragraph {
-  outline: 3px inset #13a3b8;
-  padding: 15px;
-  font-size: large;
+	outline: 3px inset #13a3b8;
+	padding: 15px;
+	font-size: large;
 }
 
 .border {
-  border-width: 3px !important;
+	border-width: 3px !important;
 }
 
 #quizBorder {
-  text-align: center;
-  border-width: 5px !important;
-  vertical-align: middle;
+	text-align: center;
+	border-width: 5px !important;
+	vertical-align: middle;
 }
 
 /*
@@ -35,73 +35,78 @@ body {
  */
 
 .sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  z-index: 100; /* Behind the navbar */
-  padding-top: 60px; /* Height of navbar */
-  width: fit-content;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	z-index: 100; /* Behind the navbar */
+	padding-top: 60px; /* Height of navbar */
+	width: fit-content;
 }
 
 @media (max-width: 767.98px) {
-  .sidebar {
-    top: 5rem;
-  }
+	.sidebar {
+		top: 5rem;
+	}
 }
 
 .sidebar-sticky {
-  position: relative;
-  top: 0;
-  height: calc(100vh - 48px);
-  padding-top: 0.5rem;
-  overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+	position: relative;
+	top: 0;
+	height: calc(100vh - 48px);
+	padding-top: 0.5rem;
+	overflow-x: hidden;
+	overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sidebar-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
+	.sidebar-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
 }
 
 .sidebar .nav-link {
-  font-weight: 500;
-  color: #333;
+	font-weight: 500;
+	color: #333;
 }
 
 .sidebar .nav-link.active {
-  color: #007bff;
+	color: #007bff;
 }
 
 #questionsForm {
-  margin-left: 5%;
+	margin-left: 5%;
 }
 
 #randomDog {
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1.5s;
-  color: #13a3b8;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+	color: #13a3b8;
 }
 
 @keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 #dogImage {
-  width: 50%;
-  height: auto;
-  padding: 1px;
-  border: 3px outset #13abb8;
-  background-color: #13a3b8;
+	width: 50%;
+	height: auto;
+	padding: 1px;
+	border: 3px outset #13abb8;
+	background-color: #13a3b8;
+}
+
+#quizPage6 {
+	position: relative;
+	z-index: 1000;
 }
